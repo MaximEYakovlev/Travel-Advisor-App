@@ -16,7 +16,7 @@ export const Header = () => {
           <Typography variant="h6" className={classes.title}>
             Explore new places
           </Typography>
-          <Autocomplete>
+          {/* <Autocomplete> */}
             <div className={classes.search}>
               <div className={classes.searchIcon}>
                 <SearchIcon />
@@ -26,7 +26,7 @@ export const Header = () => {
                 classes={{ root: classes.inputRoot, input: classes.inputInput }}
               />
             </div>
-          </Autocomplete>
+          {/* </Autocomplete> */}
         </Box>
       </Toolbar>
     </AppBar>
