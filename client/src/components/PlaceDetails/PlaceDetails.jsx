@@ -1,3 +1,3 @@
-export const PlaceDetails = () => {
-  return <h1>PlaceDetails</h1>;
+export const PlaceDetails = ({ place }) => {
+  return <h1>{place.name}</h1>;
 };
