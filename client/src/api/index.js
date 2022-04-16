@@ -12,7 +12,7 @@ const options = {
   },
   headers: {
     "X-RapidAPI-Host": "travel-advisor.p.rapidapi.com",
-    "X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
+    "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_TRAVEL_API_KEY,
   },
 };
 
