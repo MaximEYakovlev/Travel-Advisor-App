@@ -70,6 +70,17 @@ export const PlaceDetails = ({ place }) => {
             {place.address}
           </Typography>
         )}
+        {place?.phone && (
+          <Typography
+            gutterBottom
+            variant="subtitle2"
+            color="textSecondary"
+            className={classes.spacing}
+          >
+            <PhoneIcon />
+            {place.phone}
+          </Typography>
+        )}
       </CardContent>
     </Card>
   );
