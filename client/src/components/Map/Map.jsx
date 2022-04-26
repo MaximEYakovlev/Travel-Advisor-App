@@ -50,6 +50,7 @@ export const Map = ({ setCoordinates, setBounds, coordinates, places }) => {
                   }
                   alt={place.name}
                 />
+                <Rating size="small" value={Number(place.rating)} readOnly />
               </Paper>
             )}
           </div>
